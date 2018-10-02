@@ -24,7 +24,30 @@ body {
     font-size: 1.1em;
 }
 
+<<<<<<< Updated upstream
 .open .col-xl-8 .button {
+=======
+/* .register : .col-lg-8 : .btn-primary {
+    border-radius: 100px;
+} */
+
+/* .btn-group-lg>.btn, .btn-lg {
+    border-radius: 100px;
+<<<<<<< Updated upstream
+    background-color: rgb(252, 143, 68);
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    border-color:  rgb(252, 143, 68);
+}
+
+.btn-group-lg>.btn, .btn-lg:hover {
+    background-color: rgb(253, 164, 104);
+    color: white;
+} */
+
+.open .col-lg-8 .button {
+>>>>>>> Stashed changes
     background-color: rgb(252, 143, 68);
     border-style: none;
     border-radius: 50px;
@@ -44,6 +67,7 @@ body {
 
 .open .col-xl-8 {
     padding-top: 5%;
+<<<<<<< Updated upstream
 }
 
 @media screen and (max-width: 1200px) {
@@ -82,4 +106,44 @@ body {
     .open .col-xl-8 h1 {
         font-size: 1.8em;
     }
+=======
+=======
+}
+
+.background_studying{
+    display: flex;
+    background-color: rgb(237, 244, 248);
+    height: 693px;
+    width: 1920px;
+}
+.edition_text{
+    flex-direction: column;
+    margin-top: 110px;
+    margin-left: -20px;
+    text-align: left;
+}
+.color_text1{
+    color: #272727;
+}
+.background_reasons{
+    background-color: black;
+    height: 300px;
+    width: 250px;
+}
+h2{
+    font-size: 40px;
+}
+.h3_second_section{
+    padding-right: 600px;
+    font-size: 35px;
+    color: #555555;
+}
+.placement{
+    padding-right: 670px;
+}
+.edition_foreign_img{
+    display: flex;
+    margin-left: 550px;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
