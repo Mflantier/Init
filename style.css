@@ -1,45 +1,30 @@
 
 body {
     color: black;
+    overflow:hidden;
 }
 .open {
     background-image: url(background_earth.png);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: 50% 100%;
+    /* background-size: 100%; */
+    width: 100%;
     background-color: rgb(0,60,90);
     text-align: center;
     height: 708px;
     color: white;
 }
 
-.open .col-lg-8 h1 {
-    font-size: 3em;
+.open .col-xl-8 h1 {
+    font-size: 3.2em;
 }
 
-.open .col-lg-8 p {
+.open .col-xl-8 p {
     color: rgb(102,184,224);
+    font-size: 1.1em;
 }
 
-/* .register : .col-lg-8 : .btn-primary {
-    border-radius: 100px;
-} */
-
-/* .btn-group-lg>.btn, .btn-lg {
-    border-radius: 100px;
-    background-color: rgb(252, 143, 68);
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
-    border-color:  rgb(252, 143, 68);
-}
-
-.btn-group-lg>.btn, .btn-lg:hover {
-    background-color: rgb(253, 164, 104);
-    color: white;
-} */
-
-.open .col-lg-8 .button {
+.open .col-xl-8 .button {
     background-color: rgb(252, 143, 68);
     border-style: none;
     border-radius: 50px;
@@ -48,19 +33,53 @@ body {
     color: white;
     font-size: 1em;
     font-weight: bold;
+    margin-top: 20px;
 }
 
-.open .col-lg-8 .button:hover {
+.open .col-xl-8 .button:hover {
     background-color: rgb(253, 164, 104);
     border-style: none;
     cursor: pointer;
-    /* height: 50px;
-    width: 220px;
-    color: white;
-    font-size: 1em;
-    font-weight: bold; */
 }
 
-.open .col-lg-8 {
+.open .col-xl-8 {
     padding-top: 5%;
+}
+
+@media screen and (max-width: 1200px) {
+    .open {
+        max-width: 1200px;
+        height: 650px;
+        /* max-height: 442px; */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .open {
+        max-width: 1024px;
+        max-height: 550px;
+    }
+    .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .open {
+        max-width: 768px;
+        max-height: 450px;
+    }
+    .open .col-xl-8 h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .open {
+        max-width: 576px;
+        max-height: 350px;
+    }
+    .open .col-xl-8 h1 {
+        font-size: 1.8em;
+    }
 }
