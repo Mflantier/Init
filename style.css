@@ -1,4 +1,23 @@
-html, body {
-margin: 0%;
-padding: 0%;
+
+body {
+    color: black;
+}
+.register {
+    background-image: url(background_earth.png);
+    text-align: center;
+    /* height: 100%; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.register : .col-lg-8 : h1 {
+    font-size: 5em;
+}
+
+/* .register : .col-lg-8 : .btn-primary {
+    border-radius: 100px;
+} */
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 100px;
 }
