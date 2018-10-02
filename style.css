@@ -1,7 +1,7 @@
 
 body {
     color: black;
-    overflow:hidden;
+    min-height: 100vh;
 }
 .open {
     background-image: url(background_earth.png);
@@ -24,30 +24,8 @@ body {
     font-size: 1.1em;
 }
 
-<<<<<<< Updated upstream
+
 .open .col-xl-8 .button {
-=======
-/* .register : .col-lg-8 : .btn-primary {
-    border-radius: 100px;
-} */
-
-/* .btn-group-lg>.btn, .btn-lg {
-    border-radius: 100px;
-<<<<<<< Updated upstream
-    background-color: rgb(252, 143, 68);
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
-    border-color:  rgb(252, 143, 68);
-}
-
-.btn-group-lg>.btn, .btn-lg:hover {
-    background-color: rgb(253, 164, 104);
-    color: white;
-} */
-
-.open .col-lg-8 .button {
->>>>>>> Stashed changes
     background-color: rgb(252, 143, 68);
     border-style: none;
     border-radius: 50px;
@@ -67,7 +45,6 @@ body {
 
 .open .col-xl-8 {
     padding-top: 5%;
-<<<<<<< Updated upstream
 }
 
 @media screen and (max-width: 1200px) {
@@ -107,7 +84,6 @@ body {
         font-size: 1.8em;
     }
 =======
-=======
 }
 
 .background_studying{
@@ -144,6 +120,4 @@ h2{
 .edition_foreign_img{
     display: flex;
     margin-left: 550px;
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 }
