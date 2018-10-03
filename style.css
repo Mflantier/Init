@@ -151,7 +151,43 @@ h2 {
 
 /* Seconde section de la page ========================================================================================================================== */
 
+#containerstudent {
+    height: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
 .student {
     background-color: #e76e33;
-    height: 800px;
+    height: 500px;
 }
+.carousel-indicators > li {
+    background-color: #f38b59; 
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+
+  }
+
+.guillemet {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center
+}
+  .carousel-indicators li:hover {
+      background-color: white;
+      transition: 0.3s all;
+  }
+  .carousel-inner{
+      display: flex;
+      justify-content: center;
+      width: 60%;
+
+  }
+  #texte {
+      text-align: center;
+  }
+
+  #carouselIndicators {
+height: 80%;
+  }
