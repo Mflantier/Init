@@ -68,6 +68,8 @@ ul{
     padding-top: 5%;
 }
 
+/**/
+
 @media screen and (max-width: 1200px) {
     .open {
         max-width: 1200px;
