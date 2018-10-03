@@ -22,6 +22,7 @@ nav {
 }
 ul{
     list-style-type: none;
+    margin: 0%
 }
 .open {
     background-image: url(background_earth.png);
