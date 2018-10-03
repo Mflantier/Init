@@ -20,11 +20,10 @@ position: fixed;
 padding-top: 35px;
 padding-bottom: 27px;
 z-index: 1;
+display: grid;
+background-color: #003c5a;
 }
-nav {
-    display: grid;
-    background-color: #003c5a;
-}
+
 ul {
     list-style-type: none;
     margin: 0%
@@ -149,7 +148,7 @@ h2 {
     color: #555555;
 }
 
-/* Seconde section de la page ========================================================================================================================== */
+/* sixieme section de la page ========================================================================================================================== */
 
 #containerstudent {
     height: 80%;
@@ -190,4 +189,19 @@ h2 {
 
   #carouselIndicators {
 height: 80%;
+  }
+
+/* footer ========================================================================================================================== */
+
+
+#navbarfooter {
+      height: 300px;
+      background-color: rgba(0, 0, 0, 0.829);
+      margin: 0%;
+      padding: 0%;
+  }
+  #insta {
+      color: white;
+      width: 27px;
+      height: 27px;
   }
