@@ -14,6 +14,8 @@ body {
 header {
     width: 100%;
     height: 150px;
+    z-index: 1;
+    position: relative;
 }
 #navbar {
 position: fixed;
@@ -50,7 +52,7 @@ ul {
     font-size: 1.1em;
 }
 
-.register {
+.register, .course {
     background-color: rgb(252, 143, 68);
     border-style: none;
     border-radius: 50px;
@@ -61,7 +63,11 @@ ul {
     font-weight: bold;
 }
 
-.register:hover {
+.register:focus {
+    outline-style: none;
+}
+
+.register:hover, .course:hover {
     background-color: rgb(253, 164, 104);
     border-style: none;
     cursor: pointer;
@@ -144,11 +150,66 @@ h2 {
     font-size: 2.5em;
 }
 .h3_second_section {
-    font-size: 35px;
+    font-size: 2em;
     color: #555555;
 }
 
 /* sixieme section de la page ========================================================================================================================== */
+
+/* Troisème section ================================================================================================================================================ */
+
+
+
+
+/* Quatrième section ================================================================================================================================================ */
+
+.background_book_center {
+    background-color: rgb(234, 242, 246);
+    height: 700px;
+}
+
+.background_book_center .container, .background_book_center .row  {
+    height: 100%;
+}
+
+.our_book {
+    height: 60%;
+}
+
+/* Cinquième section ================================================================================================================================================ */
+
+.background_mail {
+    background-color: rgb(0, 60, 90);
+    color: white;
+    height: 400px;
+}
+
+.h3_fifth_section {
+    font-size: 1em;
+    color: #adc9f5;
+}
+
+input {
+    border-radius: 50px;
+    border-style: none;
+    height: 50px;
+    width: 500px;
+    outline-style: none;
+}
+
+.get_mail {
+    text-align: center;
+}
+
+.background_mail .column {
+    height: 60% !important;
+}
+
+/* .background_mail .container, .background_mail .column {
+    height: 100%;
+} */
+
+/* Sixième section ================================================================================================================================================ */
 
 #containerstudent {
     height: 80%;
