@@ -1,4 +1,3 @@
-
 body {
     margin: 0%;
     padding: 0%;
@@ -17,24 +16,26 @@ header {
     z-index: 1;
     position: relative;
 }
+
 #navbar {
-position: fixed;
-padding-top: 35px;
-padding-bottom: 27px;
-z-index: 1;
-display: grid;
-background-color: #003c5a;
+    position: fixed;
+    padding-top: 35px;
+    padding-bottom: 27px;
+    z-index: 1;
+    display: grid;
+    background-color: #003c5a;
 }
 
 .liste a {
-    color:rgb(35,120,162);
+    color: rgb(35, 120, 162);
 }
 
 .liste a:hover {
-    color:white;
+    color: white;
 }
 
-.num, #langerba {
+.num,
+#langerba {
     color: white;
 }
 
@@ -46,6 +47,7 @@ nav {
     display: grid;
     background-color: #003c5a;
 }
+
 ul {
     list-style-type: none;
     margin: 0%
@@ -57,7 +59,7 @@ ul {
     background-image: url(background_earth.png);
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    background-color: rgb(0,60,90);
+    background-color: rgb(0, 60, 90);
     text-align: center;
     height: 708px;
     color: white;
@@ -68,11 +70,12 @@ ul {
 }
 
 .open .open-content p {
-    color: rgb(102,184,224);
+    color: rgb(102, 184, 224);
     font-size: 1.1em;
 }
 
-.register, .course {
+.register,
+.course {
     background-color: rgb(252, 143, 68);
     border-style: none;
     border-radius: 50px;
@@ -87,7 +90,8 @@ ul {
     outline-style: none;
 }
 
-.register:hover, .course:hover {
+.register:hover,
+.course:hover {
     background-color: rgb(253, 164, 104);
     border-style: none;
     cursor: pointer;
@@ -120,6 +124,7 @@ ul {
         max-width: 1024px;
         max-height: 550px;
     }
+
     .open .col-xl-8 h1 {
         font-size: 2.5em;
     }
@@ -130,6 +135,7 @@ ul {
         max-width: 768px;
         max-height: 450px;
     }
+
     .open .col-xl-8 h1 {
         font-size: 2em;
     }
@@ -140,6 +146,7 @@ ul {
         max-width: 576px;
         max-height: 350px;
     }
+
     .open .col-xl-8 h1 {
         font-size: 1.8em;
     }
@@ -148,7 +155,8 @@ ul {
 
 /* Seconde section ================================================================================================================================================ */
 
-.edition_text, .edition_foreign_img{
+.edition_text,
+.edition_foreign_img {
     padding-left: 0;
     padding-right: 0;
 }
@@ -157,18 +165,20 @@ ul {
     height: 80%;
 }
 
-.background_studying{
+.background_studying {
     background-color: rgb(237, 244, 248);
     height: 693px;
 }
 
-.background_studying .container, .background_studying .row  {
+.background_studying .container,
+.background_studying .row {
     height: 100%;
 }
 
 h2 {
     font-size: 2.5em;
 }
+
 .h3_second_section {
     font-size: 2em;
     color: #555555;
@@ -192,7 +202,8 @@ h2 {
     outline-style: none;
 }
 
-.background_book_center .container, .background_book_center .row  {
+.background_book_center .container,
+.background_book_center .row {
     height: 100%;
 }
 
@@ -248,17 +259,19 @@ input {
     /* padding-top: 30px;
     padding-bottom: 30px */
 }
+
 .student {
     background-color: #e76e33;
     height: 500px;
 }
-.carousel-indicators > li {
-    background-color: #f38b59; 
+
+.carousel-indicators>li {
+    background-color: #f38b59;
     border-radius: 50%;
     width: 12px;
     height: 12px;
 
-  }
+}
 
 .guillemet {
     margin: 0%;
@@ -266,23 +279,26 @@ input {
     display: flex;
     justify-content: center
 }
-  .carousel-indicators li:hover {
-      background-color: white;
-      transition: 0.3s all;
-  }
-  .carousel-inner{
-      display: flex;
-      justify-content: center;
-      width: 60%;
 
-  }
-  #texte {
-      text-align: center;
-  }
+.carousel-indicators li:hover {
+    background-color: white;
+    transition: 0.3s all;
+}
 
-  #carouselIndicators {
-height: 80%;
-  }
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+}
+
+#texte {
+    text-align: center;
+}
+
+#carouselIndicators {
+    height: 80%;
+}
 
 /* * {
     box-sizing: content-box !important;
@@ -299,7 +315,7 @@ height: 80%;
     width: 50px;
     height: 50px;
     font-size: 20px;
-    background-color: rgb(252,143,68);
+    background-color: rgb(252, 143, 68);
     border-style: none;
     border-radius: 50%;
     padding: 10px 0 0 18px;
@@ -309,21 +325,28 @@ height: 80%;
 a:link {
     text-decoration: none;
 }
+
 .back_top:hover {
-    background-color: rgb(252,128,43);
-    color:white;
+    background-color: rgb(252, 128, 43);
+    color: white;
 }
+
 /* footer ========================================================================================================================== */
 
 
 #navbarfooter {
-      height: 300px;
-      background-color: rgba(0, 0, 0, 0.829);
-      margin: 0%;
-      padding: 0%;
-  }
-  #insta {
-      color: white;
-      width: 27px;
-      height: 27px;
-  }
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin: 0%;
+    padding: 0%;
+}
+
+#containerfooter {
+    border-bottom: white;
+
+}
+
+#navbar-text i:hover {
+    color: #f38b59;
+    transition: 0.5s all;
+}
