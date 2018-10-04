@@ -26,6 +26,26 @@ display: grid;
 background-color: #003c5a;
 }
 
+.liste a {
+    color:rgb(35,120,162);
+}
+
+.liste a:hover {
+    color:white;
+}
+
+.num, #langerba {
+    color: white;
+}
+
+.num:hover {
+    color: rgb(214, 131, 71);
+}
+
+nav {
+    display: grid;
+    background-color: #003c5a;
+}
 ul {
     list-style-type: none;
     margin: 0%
@@ -168,6 +188,10 @@ h2 {
     height: 700px;
 }
 
+.background_mail button {
+    outline-style: none;
+}
+
 .background_book_center .container, .background_book_center .row  {
     height: 100%;
 }
@@ -205,16 +229,24 @@ input {
     height: 60% !important;
 }
 
-/* .background_mail .container, .background_mail .column {
-    height: 100%;
-} */
+.get_mail h2 {
+    font-size: 2.8em;
+}
+
+.get_mail h3 {
+    font-size: 1.2em;
+}
+
+.course {
+    width: 250px;
+}
 
 /* Sixième section ================================================================================================================================================ */
 
 #containerstudent {
-    height: 80%;
-    padding-top: 30px;
-    padding-bottom: 30px
+    height: 100%;
+    /* padding-top: 30px;
+    padding-bottom: 30px */
 }
 .student {
     background-color: #e76e33;
@@ -252,6 +284,35 @@ input {
 height: 80%;
   }
 
+/* * {
+    box-sizing: content-box !important;
+} */
+
+/* Bouton pour remonter ================================================================================================================================================ */
+
+.back_top {
+    position: fixed;
+    bottom: 40px;
+    float: right;
+    right: 40px;
+    /* max-width: 30px; */
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(252,143,68);
+    border-style: none;
+    border-radius: 50%;
+    padding: 10px 0 0 18px;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+.back_top:hover {
+    background-color: rgb(252,128,43);
+    color:white;
+}
 /* footer ========================================================================================================================== */
 
 
