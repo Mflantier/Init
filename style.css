@@ -350,3 +350,12 @@ a:link {
     color: #f38b59;
     transition: 0.5s all;
 }
+
+#privacy{
+    color: white;
+}
+
+#privacy:hover {
+    color: #f38b59;
+    transition: 0.5s all; 
+}
