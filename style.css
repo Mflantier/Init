@@ -138,13 +138,15 @@ ul {
     font-size: 1.1em;
 }
 
-.background_studying .container, .background_studying .row  {
+.background_studying .container,
+.background_studying .row {
     height: 100%;
 }
 
 .background_studying h2 {
     font-size: 2.7em;
 }
+
 .background_studying h3 {
     font-size: 2.2em;
     color: #555555;
@@ -237,13 +239,13 @@ ul {
     height: 65px;
   } */
 
-  /* .icon {
+/* .icon {
       float: left;
   } */
 
-  .background_reasons p {
-      color: rgb(176, 179, 181);
-  }
+.background_reasons p {
+    color: rgb(176, 179, 181);
+}
 
 /* Quatrième section ================================================================================================================================================ */
 
@@ -389,7 +391,7 @@ a:link {
 
 
 #navbarfooter {
-    height: 300px;
+    height: 185px;
     background-color: rgba(0, 0, 0, 0.829);
     margin: 0%;
     padding: 0%;
@@ -400,16 +402,72 @@ a:link {
 
 }
 
-#navbar-text i:hover {
+#navbar_text i:hover {
     color: #f38b59;
     transition: 0.5s all;
 }
 
-#privacy{
+#privacy {
     color: white;
 }
 
 #privacy:hover {
     color: #f38b59;
-    transition: 0.5s all; 
+    transition: 0.5s all;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    #navbarfooter {
+        height: auto;
+        text-align: center;
+    }
+#langerba {
+    display: flex;
+}
+    #containerfooter {
+        margin: 35px 0 30px 0;
+        flex-direction: column;
+
+    }
+
+    #navbar_text{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .edition_foreign_img img {
+        width: 455px;
+        height: 392px;
+    }
+
+    .edition_foreign_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .edition_text {
+        margin: 35px 0 30px 0;
+    }
+
+    .edition_text button {
+        align-self: center;
+    }
+
+    .background_studying {
+        height: auto;
+        text-align: center;
+    }
+
+    .text_padding {
+        padding-right: 0;
+    }
+
+    /* .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    } */
 }
