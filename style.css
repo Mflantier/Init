@@ -112,53 +112,16 @@ ul {
     font-family: "Thin Regular";
 }
 
-@media screen and (max-width: 1200px) {
-    .open {
-        max-width: 1200px;
-        height: 650px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .open {
-        max-width: 1024px;
-        max-height: 550px;
-    }
-
-    .open .col-xl-8 h1 {
-        font-size: 2.5em;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .open {
-        max-width: 768px;
-        max-height: 450px;
-    }
-
-    .open .col-xl-8 h1 {
-        font-size: 2em;
-    }
-}
-
-@media screen and (max-width: 574px) {
-    .open {
-        max-width: 576px;
-        max-height: 350px;
-    }
-
-    .open .col-xl-8 h1 {
-        font-size: 1.8em;
-    }
-
-}
-
 /* Seconde section ================================================================================================================================================ */
 
 .edition_text,
 .edition_foreign_img {
     padding-left: 0;
     padding-right: 0;
+}
+
+.text_padding {
+    padding-right: 40px;
 }
 
 .edition_text {
@@ -187,7 +150,83 @@ ul {
     color: #555555;
 }
 
-/* sixieme section de la page ========================================================================================================================== */
+/* @media screen and (max-width: 1200px) {
+    .open {
+        max-width: 1200px;
+        height: 650px;
+    }
+} */
+
+@media screen (min-width: 993px) and (max-width: 1024px) {
+
+    .edition_foreign_img img {
+        width: 455px;
+        height: 392px;
+    }
+
+    /* .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    } */
+}
+
+@media screen and (max-width: 992px) {
+    /* .edition_text {
+        width: 100%;
+    } */
+
+    .background_studying {
+        height: auto;
+        text-align: center;
+    }
+
+    .edition_foreign_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .edition_text {
+        margin: 35px 0 30px 0;
+    }
+
+    .edition_text button {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .edition_foreign_img img {
+        width: 455px;
+        height: 392px;
+    }
+
+    .edition_foreign_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .edition_text {
+        margin: 35px 0 30px 0;
+    }
+
+    .edition_text button {
+        align-self: center;
+    }
+
+    .background_studying {
+        height: auto;
+        text-align: center;
+    }
+
+    .text_padding {
+        padding-right: 0;
+    }
+
+    /* .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    } */
+}
+
 
 /* Troisème section ================================================================================================================================================ */
 
