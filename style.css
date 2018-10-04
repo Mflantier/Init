@@ -112,6 +112,44 @@ ul {
     font-family: "Thin Regular";
 }
 
+@media screen and (max-width: 1200px) { 
+    .open { 
+        max-width: 1200px; 
+        height: 650px; 
+        /* max-height: 442px; */ 
+    } 
+} 
+ 
+@media screen and (max-width: 1024px) { 
+    .open-content { 
+        max-width: 1024px; 
+        max-height: 550px; 
+    } 
+    .open-content .col-lg h1 { 
+        font-size: 2.5em; 
+    } 
+} 
+ 
+@media screen and (max-width: 768px) { 
+    .open-content { 
+        max-width: 768px; 
+        max-height: 450px; 
+    } 
+    .open-content .col-lg h1 { 
+        font-size: 2em; 
+    } 
+} 
+ 
+@media screen and (max-width: 574px) { 
+    .open-content { 
+        max-width: 576px; 
+        max-height: 350px; 
+    } 
+    .open-content .col-lg h1 { 
+        font-size: 1.8em; 
+    } 
+}
+
 /* Seconde section ================================================================================================================================================ */
 
 .edition_text,
@@ -229,6 +267,18 @@ ul {
     } */
 }
 
+@media screen and (max-width: 530px) {
+
+    .edition_foreign_img img {
+        width: 303px;
+        height: 261px;
+    }
+
+    /* .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    } */
+}
+
 
 /* Troisème section ================================================================================================================================================ */
 
@@ -246,6 +296,10 @@ ul {
 .background_reasons p {
     color: rgb(176, 179, 181);
 }
+
+  .background_reasons h2 {
+      font-size: 2.8em;
+  }
 
 /* Quatrième section ================================================================================================================================================ */
 
@@ -265,6 +319,72 @@ ul {
 
 .our_book {
     height: 60%;
+}
+
+@media screen (min-width: 993px) and (max-width: 1024px) {
+
+    /* .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    } */
+}
+
+@media screen and (max-width: 992px) {
+    /* .edition_text {
+        width: 100%;
+    } */
+
+    .background_book_center {
+        height: auto;
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+
+    .background_book_center p {
+        margin-bottom: 0px;
+    }
+
+    .book_center_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .edition_text {
+        margin: 35px 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .book_center_img img {
+        width: 328px;
+        height: 288px;
+    }
+
+    .edition_foreign_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .edition_text {
+        margin: 35px 0 30px 0;
+    }
+
+    .edition_text button {
+        align-self: center;
+    }
+
+    .background_studying {
+        height: auto;
+        text-align: center;
+    }
+
+    .text_padding {
+        padding-right: 0;
+    }
+
+    /* .open .col-xl-8 h1 {
+        font-size: 2.5em;
+    } */
 }
 
 /* Cinquième section ================================================================================================================================================ */
