@@ -170,17 +170,20 @@ ul {
     height: 693px;
 }
 
-.background_studying .container,
-.background_studying .row {
+.background_studying p {
+    color: rgb(176, 179, 181);
+    font-size: 1.1em;
+}
+
+.background_studying .container, .background_studying .row  {
     height: 100%;
 }
 
-h2 {
-    font-size: 2.5em;
+.background_studying h2 {
+    font-size: 2.7em;
 }
-
-.h3_second_section {
-    font-size: 2em;
+.background_studying h3 {
+    font-size: 2.2em;
     color: #555555;
 }
 
@@ -189,7 +192,19 @@ h2 {
 /* Troisème section ================================================================================================================================================ */
 
 
+/* .test:before {
+    content: url(img/web.png);
+    width: 65px;
+    height: 65px;
+  } */
 
+  /* .icon {
+      float: left;
+  } */
+
+  .background_reasons p {
+      color: rgb(176, 179, 181);
+  }
 
 /* Quatrième section ================================================================================================================================================ */
 
